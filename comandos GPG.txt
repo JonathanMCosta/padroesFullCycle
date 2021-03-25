@@ -6,3 +6,17 @@ gpg --full-generate-key
 
 para gerar o endereço da chave publica
 gpg --armor --export <ID DA CHAVE>
+
+git config --global user.signinkey <ID DA CHAVE>
+
+setar a variavel de ambiente
+export GPG_TTY=$(tty)
+
+assinar o repositório atual nos commits:
+git config commit.gpgsign true
+
+assinar globalmente o repositório atual nos commits:
+git config --global commit.gpgsign true
+
+assinar as tags nos repositórios:
+git config --global tag.gpgsign true
