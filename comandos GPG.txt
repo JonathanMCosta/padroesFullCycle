@@ -23,3 +23,4 @@ git config --global tag.gpgsign true
 
 editar a chave
 gpg --edit-key B0945175B58F89DE
+
