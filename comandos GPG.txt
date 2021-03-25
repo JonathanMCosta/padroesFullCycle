@@ -1,0 +1,8 @@
+listar as chaves no S.O
+gpg --list-secret-key --keyid-form LONG
+
+processo para gerar a chave
+gpg --full-generate-key
+
+para gerar o endereço da chave publica
+gpg --armor --export <ID DA CHAVE>
